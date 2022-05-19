@@ -1,0 +1,23 @@
+.home {
+  height: 100vh;
+  width: 100vw;
+  min-width: 400px;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 12% 78% 10%;
+  grid-template-areas:
+    "Header"
+    "Main"
+    "Footer";
+}
+.headerHome {
+  grid-area: Header;
+  background: #111A3D;
+  
+  ;
+}
+.home-main {
+  grid-area: Main;
+}
