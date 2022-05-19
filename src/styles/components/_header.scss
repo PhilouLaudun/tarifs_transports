@@ -4,6 +4,7 @@ top: 0px;
 padding: 10px;
 height: 10%;
 width: 100%;
+background: #111A3D;
   display: grid;
   grid-template-columns: 30% 70%;
   grid-template-rows: 100%;
@@ -11,14 +12,12 @@ width: 100%;
 }
 .nav {
     grid-area: Nav;
-    background: greenyellow;
     position: absolute;
     display:flex;
     right: 5%;
   }
 .logo {
     grid-area: Logo;
- 
 }
  img {
         width: 80%;

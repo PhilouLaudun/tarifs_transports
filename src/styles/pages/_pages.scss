@@ -1,4 +1,4 @@
-.home {
+.page {
   height: 100vh;
   width: 100vw;
   min-width: 400px;
@@ -12,12 +12,13 @@
     "Main"
     "Footer";
 }
-.headerHome {
+.headerPage {
   grid-area: Header;
-  background: #111A3D;
-  
   ;
 }
-.home-main {
+.page-main {
   grid-area: Main;
+}
+.footerPage {
+  grid-area: Footer;
 }
