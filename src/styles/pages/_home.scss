@@ -1,0 +1,31 @@
+.homeContent {
+    width: 100%;
+    height: 100%;
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: 
+    " Titre Titre"
+    "Texte Photo"
+    ;
+
+
+    
+}
+
+.hometitre {
+    grid-area: Titre;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+.hometexte {
+     grid-area: Texte;
+     padding-top: 25%;
+}
+.photocamion {
+    grid-area: Photo;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}

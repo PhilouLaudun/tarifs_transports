@@ -1,4 +1,5 @@
 .page {
+  position: absolute;
   height: 100vh;
   width: 100vw;
   min-width: 400px;
@@ -14,10 +15,10 @@
 }
 .headerPage {
   grid-area: Header;
-  ;
 }
 .page-main {
   grid-area: Main;
+ 
 }
 .footerPage {
   grid-area: Footer;
