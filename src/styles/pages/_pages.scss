@@ -12,9 +12,16 @@
     "Header"
     "Main"
     "Footer";
+
+       @media screen and (max-width: 600px) {
+        grid-template-rows: 20% 1fr 10%;
+        overflow:auto;
+      }
+
 }
 .headerPage {
   grid-area: Header;
+  background: $color-1;
 }
 .page-main {
   grid-area: Main;
@@ -22,6 +29,7 @@
 }
 .footerPage {
   grid-area: Footer;
+  width: 100%;
 }
  // affichage du fond animé de la page
   .bg {

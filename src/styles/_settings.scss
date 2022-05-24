@@ -49,10 +49,8 @@ a:visited {
 // paramètres par défaut du corps de la page HTML
 body {
   font-family: $font-1;
-  height: 100vh;
-  width: 100vw;
   color: $black;
-  overflow: hidden;
+  overflow:hidden;
 }
 // definit la position normale de la section main des pages
 main {
